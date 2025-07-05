@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="undraw_world_bdnk.png"
+      type="image/x-icon"
+    />
+    <title>My Travel Site</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0d6efd;
+        padding: 0px 10px;
+        z-index: 999;
+      }
+
+      nav img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+        padding: 10px;
+      }
+
+      nav ul li:hover {
+        text-decoration: underline;
+        background-color: red;
+        border-radius: 10%;
+      }
+
+      .btn {
+        padding: 9px;
+        background: linear-gradient(
+          to right,
+          rgba(199, 239, 0, 0.965),
+          rgb(255, 3, 3)
+        );
+        color: black;
+        border: none;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-right: 40px;
+      }
+
+      .btn:hover {
+        color: white;
+      }
+
+      nav ul a {
+        text-decoration: dotted;
+      }
+      :hover.box {
+        box-shadow: 0px 0px 20px 3px black;
+      }
+      .travle {
+        color: rgb(216, 208, 208);
+        text-decoration: none;
+      }
+      .travle:hover {
+        color: aqua;
+        text-decoration: underline;
+      }
+      .fnave {
+        color: rgb(184, 180, 180);
+      }
+      .fnave:hover {
+        color: white;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <span>
+        <img src="undraw_world_bdnk.png'.jpg" alt="Logo" />
+      </span>
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Blog</li></a>
+        <a href="#"><li>My Travel</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
+      <span>
+        <button class="btn">Get Started</button>
+      </span>
+    </nav>
+    <section style="position: relative; height: 900px; overflow: hidden">
+      <!-- blurred background image -->
+      <div
+        style="
+          position: absolute;
+          inset: 0;
+          background-image: url('undraw_world_bdnk.png\'.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          filter: blur(4px);
+          opacity: 0.6;
+          z-index: 1;
+          background-size: auto;
+        "
+      ></div>
+
+      <!-- visible text content -->
+      <div
+        style="
+          position: relative;
+          z-index: 2;
+          color: white;
+          text-align: center;
+          padding-top: 190px;
+          padding-left: 20px;
+          padding-right: 20px;
+        "
+      >
+        <h1 style="font-size: 70px; color: black">Hello World</h1>
+        <h1
+          style="
+            font-size: 40px;
+            background: linear-gradient(to right, green, rgb(255, 3, 3));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          "
+        >
+          You want to explore the earth..?
+        </h1>
+
+        <p style="color: black; font-size: 22px">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+          Modi laborum quo voluptatem quaerat ea ipsam voluptate <br />similique
+          sint quia quidem facilis ipsa,<br />
+          facere autem perspiciatis, dolores nam commodi quae? Dolore. <br />
+          <span>
+            <strong
+              >"If you want to see my traveling, you can scroll through the
+              site. At the bottom, you will find some content about my
+              <mark style="background-color: chocolate; color: white"
+                ><em>explorations</em></mark
+              >
+              . Take a look and enjoy!"</strong
+            >
+          </span>
+        </p>
+        <p style="color: rebeccapurple">
+          so why let ? let go..... togather ✈️✈️✈️..
+          <button class="btn">Get Started</button>
+        </p>
+      </div>
+    </section>
+
+    <div style="margin-top: 0px"></div>
+    <div style="margin: 5px; padding: 10px">
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestias
+        nam nisi, delectus consequatur quod? Culpa quibusdam laboriosam eum quia
+        sapiente, minima porro nihil dolorum asperiores, illum unde commodi.
+        Fugiat.
+      </h4>
+    </div>
+    <div
+      style="display: flex; justify-content: center; flex-wrap: wrap; gap: 50px"
+    >
+      <!-- 1st card -->
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="istockphoto-2131902103-612x612.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine-gm2131902103-568025677"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img22.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/woman-conquering-the-outdoors-hiking-at-weekend-gm2214787246-631571481"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Asian Chinese tourists riding dromedary camel train crossing Sahara
+            Desert Morocco led by tour guide herdsman during sunset stock photo
+            Morocco, Vacations, Adventure, Animal Riding, Arid Climate
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <div>
+          <img
+            src="img3.jpg"
+            style="width: 100%; height: auto; border-top-right-radius: 20px"
+            alt=""
+          />
+        </div>
+        <div>
+          <p style="margin-left: 10px">
+            <a
+              href="https://www.istockphoto.com/photo/portrait-of-smiling-senior-woman-outdoors-in-countryside-gm1436391153-477443077"
+              target="_blank"
+            >
+              <span><strong>The img link</strong></span>
+            </a>
+            <br /><br />
+            <span style="color: gray">
+              Portrait Of Smiling Senior Woman Outdoors In Countryside stock
+              photo Nordic Walking, Autumn, Women, Senior Women, 65-69 Years
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="mig4.jpg"
+          style="
+            width: 100%;
+            height: 170px;
+            border-top-right-radius: 20px;
+            object-fit: cover;
+          "
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://plus.unsplash.com/premium_photo-1688747278757-3e90d8b2e9b4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img5.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/a-day-in-the-park-gm1317866032-405174142"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            A day in the park stock photo Chinese People, Couple - Relationship,
+            UK, 20-24 Years, 25-29 Years
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img6.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/couple-embracing-each-other-in-park-gm1092622568-293180370"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Couple embracing each other in Park stock photo 20-29 Years, Adult,
+            Adults Only, Arm Around, Autumny
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img7.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/father-and-daughter-talking-in-natural-park-gm1355756099-430136615"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Father and daughter talking in natural park stock photo Nature Park,
+            40-49 Years, 45-49 Years, 8-9 Years, Active Lifestyle
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img8.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/asian-chinese-tourists-riding-dromedary-camel-train-crossing-sahara-desert-morocco-gm1463054738-496191513"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img9.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://media.istockphoto.com/id/1253117193/photo/sahara-desert.jpg?s=612x612&w=0&k=20&c=dj5m5y5d-xOy_FxyLxzVglPb1tdZUe7LLbar6h6K6HA="
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img10.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/asian-kid-and-mom-travels-in-tianhou-temple-in-xunliao-bay-guangdong-province-china-gm2203431337-620961807"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img11.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/happy-mature-couple-exploring-a-charming-european-city-together-gm2169942179-589899285"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img12.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/young-family-having-fun-traveling-together-gm1357530144-431406930"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img13.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/couple-next-to-car-using-smartphone-gm2157491734-578172689"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="img14.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/young-woman-traveler-relaxing-and-enjoying-the-tropical-sea-while-traveling-for-gm2147497907-568898639"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="istockphoto-2131902103-612x612.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine-gm2131902103-568025677"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <a href="#"
+          ><img
+            src="istockphoto-2131902103-612x612.jpg"
+            style="width: 100%; height: auto; border-top-right-radius: 20px"
+            alt=""
+        /></a>
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine-gm2131902103-568025677"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+          src="istockphoto-2131902103-612x612.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine-gm2131902103-568025677"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+      <div
+        class="box"
+        style="
+          width: 250px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 0px;
+          background-color: cyan;
+          border-top-right-radius: 20px;
+        "
+      >
+        <img
+        src="istockphoto-2131902103-612x612.jpg"
+          style="width: 100%; height: auto; border-top-right-radius: 20px"
+          alt=""
+        />
+        <p style="margin-left: 10px">
+          <a
+            href="https://www.istockphoto.com/photo/married-couple-of-mixed-ethnicity-visiting-a-japanese-shrine-gm2131902103-568025677"
+            target="_blank"
+          >
+            <span><strong>The img link</strong></span>
+          </a>
+          <br /><br />
+          <span style="color: gray">
+            Married couple of mixed ethnicity visiting a Japanese shrine stock
+            photo Japan, Travel, Tourist, Japanese Culture, Journey
+          </span>
+        </p>
+      </div>
+
+      <!-- Repeat the above block as needed -->
+    </div>
+    <!-- <div style="display: flex; align-items: center; justify-content: center">
+      <span>hakimcolor777@gmail.com</span>
+    </div> -->
+  <div style="display: flex; height: 40%; width: 75%; margin-top: 50px; font-family: Arial, sans-serif; border: 2px solid black; justify-content: center ; margin-left: 14%; margin-top: 8px;">
+
+  <!-- Left Image with Gradient Overlay -->
+  <div style="flex: 1; position: relative;">
+    <img src="from.jpg" alt="Sign Up Image" style="width: 100%; height: 100%; object-fit: cover;" />
+    <div style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(255, 0, 150, 0.5), rgba(123, 97, 255, 0.5));
+    "></div>
+  </div>
+
+  <!-- Right Form -->
+  <div style="
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  ">
+    <div style="
+      width: 80%;
+      max-width: 400px;
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+    ">
+      <h2 style="margin-bottom: 30px; font-size: 28px;">Sign Up</h2>
+
+      <label style="display: block; margin-bottom: 5px; font-weight: bold;">Full Name</label>
+      <input type="text" placeholder="Name..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: none; border-bottom: 1px solid #ccc;" />
+
+      <label style="display: block; margin-bottom: 5px; font-weight: bold;">Email</label>
+      <input type="email" placeholder="Email address..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: none; border-bottom: 1px solid #ccc;" />
+
+      <label style="display: block; margin-bottom: 5px; font-weight: bold;">Username</label>
+      <input type="text" placeholder="Username..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: none; border-bottom: 1px solid #ccc;" />
+
+      <label style="display: block; margin-bottom: 5px; font-weight: bold;">Password</label>
+      <input type="password" placeholder="************" style="width: 100%; padding: 10px; margin-bottom: 20px; border: none; border-bottom: 1px solid #ccc;" />
+
+      <label style="display: block; margin-bottom: 5px; font-weight: bold;">Repeat Password</label>
+      <input type="password" placeholder="************" style="width: 100%; padding: 10px; margin-bottom: 20px; border: none; border-bottom: 1px solid #ccc;" />
+
+      <div style="margin-bottom: 20px;">
+        <input type="checkbox" id="agree" style="margin-right: 10px;" />
+        <label for="agree" style="font-size: 14px;">I agree to the <a href="#" style="color: #555; text-decoration: none;"><strong>Terms of User</strong></a></label>
+      </div>
+
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <button
+          style="
+            padding: 10px 25px;
+            border: none;
+            background: linear-gradient(to right, #ff6ec4, #7873f5);
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          Sign Up
+        </button>
+
+        <a href="#" style="text-decoration: none; color: #444;">Sign in →</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    <div
+      style="
+        background-color: black;
+        height: 200px;
+        /* margin: 20px 20px 3px 20px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 0 50px;
+        margin-top: 5px;
+      "
+    >
+      <div style="margin-top: 0px">
+        <p style="margin: 0 0 7px 0"><strong>Agency Details</strong></p>
+        <p style="margin: 0 0 7px 0">
+          <a class="travle" href="#" style="font-size: 19">Travel with HK.</a>
+        </p>
+        <p style="margin: 0 0 7px 0">Jashore</p>
+        <p style="margin: 0">512 Road, Pulbaria, Jashore</p>
+      </div>
+      <div>
+        <ul style="list-style: none; padding: 0">
+          <li class="fnave" style="cursor: pointer; margin: 0 0 7px 0">Home</li>
+          <li class="fnave" style="cursor: pointer; margin: 0 0 7px 0">
+            About
+          </li>
+          <li class="fnave" style="cursor: pointer; margin: 0 0 7px 0">Blog</li>
+          <li class="fnave" style="cursor: pointer; margin: 0 0 7px 0">
+            My Travel
+          </li>
+          <li class="fnave" style="cursor: pointer; margin: 0 0 7px 0">
+            Contact
+          </li>
+        </ul>
+      </div>
+      <div style="margin: 5px ; margin-top: -13px;">
+        <p>
+          <p style="margin: 0 0 2px 0">If you want to start </p>
+          <p  style="margin: 0 0 5px 0">traveling, please hit the</p>
+           
+      <p style="margin: 0 0 6px 0"> "Get Started" button.</p>
+         
+        </p>
+        <button  style="margin: 0 0 2px 0; margin-top: -11px;" class="btn">Get Started</button>
+      </div>
+    </div>
+
+    
+    <!-- 
+    <div style="width: 500px; height: 500px"></div> -->
+  </body>
+</html>
